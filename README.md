@@ -5,3 +5,7 @@
 # springboot整合Redis
 
 [github](https://github.com/wendongchao/spring-boot-redis)
+
+# lua脚本简单入门
+[视频链接](https://www.bilibili.com/video/BV1vf4y1L7Rb/?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=85b3af70816e1bf2b8a89a1f8b1bf896)
+
