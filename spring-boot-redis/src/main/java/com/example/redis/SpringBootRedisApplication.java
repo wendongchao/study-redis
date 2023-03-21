@@ -10,8 +10,8 @@ import org.springframework.cache.annotation.EnableCaching;
  */
 @EnableCaching// 开启缓存功能 https://www.macrozheng.com/mall/reference/spring_data_redis.html#%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3
 @SpringBootApplication
-public class RedisApplication {
+public class SpringBootRedisApplication {
     public static void main(String[] args) {
-        SpringApplication.run(RedisApplication.class,args);
+        SpringApplication.run(SpringBootRedisApplication.class,args);
     }
 }
