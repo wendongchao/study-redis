@@ -1,6 +1,6 @@
 package com.base.redis.pubsub.controller;
 
-import dai.samples.redis.pubsub.service.PubSend;
+import com.base.redis.pubsub.service.PubSend;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
