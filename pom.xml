@@ -10,9 +10,10 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>base-spring-boot-redis</module>
+        <module>spring-boot-redis</module>
         <module>lock-redis</module>
         <module>base-redis</module>
+        <module>delay-queue-base</module>
     </modules>
 
     <properties>
