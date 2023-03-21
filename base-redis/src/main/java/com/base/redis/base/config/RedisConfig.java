@@ -1,4 +1,4 @@
-package com.example.redis.config;
+package com.base.redis.base.config;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
@@ -23,14 +23,8 @@ import java.time.Duration;
  * Redis配置类
  * Created by macro on 2020/3/2.
  */
-@EnableCaching
 @Configuration
 public class RedisConfig extends CachingConfigurerSupport {
-
-    /**
-     * redis数据库自定义key
-     */
-    public  static final String REDIS_KEY_DATABASE="mall";
 
     @Bean
     public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
