@@ -1,12 +1,11 @@
 package com.base.redis.pubsub.service;
 
-import dai.samples.redis.pubsub.config.RedisListenerConfig;
+import com.base.redis.pubsub.config.RedisListenerConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 
 /**
- *
  * @author daify
  * @date 2019-07-25 9:59
  **/
@@ -26,5 +25,5 @@ public class PubSend {
         redisTemplate.convertAndSend(RedisListenerConfig.CHANNEL,
                 message);
     }
-    
+
 }

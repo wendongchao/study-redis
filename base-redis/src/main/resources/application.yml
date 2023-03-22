@@ -6,7 +6,7 @@ spring:
   redis:
     database: 0
     host: 127.0.0.1
-    password: 密码
+    password: root2014
     port: 6379
     jedis:
       pool:
